@@ -9,6 +9,7 @@ html {
 }
 body {
   font-family: "Open Sans", "sxans-serif";
+  background-color: hsl(217, 28%, 15%);
 }
 ul {
   list-style: none;
