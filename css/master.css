@@ -8,7 +8,6 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: "Open Sans", "sxans-serif";
   background-color: hsl(217, 28%, 15%);
 }
 ul {
@@ -39,3 +38,48 @@ ul {
   }
 }
 /* End Global Rules */
+/* Start Header  */
+header {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  z-index: 2;
+  font-family: "Raleway", sans-serif;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+header img {
+  width: 100px;
+}
+header nav {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+header nav ul {
+  display: flex;
+}
+header nav ul li a {
+  display: block;
+  padding: 50px 20px;
+  text-decoration: none;
+  font-size: 14px;
+  color: rgb(255 255 255 / 60%);
+  font-weight: 400;
+}
+header nav ul li a:hover {
+  color: white;
+}
+.landing img {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+/* End Header  */
